@@ -4,7 +4,7 @@ class DBHelper:
         self.con = connector.connect(
             host="localhost",
             user="root",
-            password="vermaswayam@225346",
+            password="************",
          database="pythontest"
         )
         query="create table if not exists user(userID int primary key,username varchar(200),phonr varchar(12))"
